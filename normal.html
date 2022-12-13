@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="typing.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="game">
+      <div class="game-options">
+        <i class="fa-solid fa-bars bar"></i>
+        <h3>Options</h3>
+        <ul>
+          <a href="http://127.0.0.1:5500/noob.html">Noob</a>
+          <a href="http://127.0.0.1:5500/easy.html">Easy</a>
+          <a href="http://127.0.0.1:5500/normal.html">Normal</a>
+          <a href="http://127.0.0.1:5500/hard.html">Hard</a>
+          <a href="http://127.0.0.1:5500/hacker.html">Hacker</a>
+        </ul>
+      </div>
+      <div class="name">Typing Speed Test</div>
+      <div class="container">
+        <div class="message">
+          You Are Playing On <span class="lvl"></span> Level & You Have
+          <span class="seconds"></span> Seconds To Type The Word.
+        </div>
+        <div class="start">Start Playing</div>
+        <div class="the-word"></div>
+        <input type="text" class="input" />
+        <div class="upcoming-words">Words Will Show Here</div>
+        <div class="control">
+          <div class="time">Time Left: <span></span> Second</div>
+          <div class="score">
+            Score: <span class="got">0</span> From <span class="total"></span>
+          </div>
+        </div>
+        <div class="finish">
+          <h3>You Took <span id="clock"></span></h3>
+        </div>
+        <div class="restart">Restart</div>
+      </div>
+    </div>
+    <script src="normal.js"></script>
+  </body>
+</html>
